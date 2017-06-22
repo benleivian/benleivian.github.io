@@ -36,9 +36,7 @@
    m.parentNode.insertBefore(a, m)
   })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
   ga('create', 'UA-2569379-3', 'auto');
-  $(document).on('turbolinks:load', function() {
-   ga('send', 'pageview', window.location.pathname);
-  });
+  ga('send', 'pageview');
  </script>
  <script type="text/javascript">
   $(document).ready(function() {
