@@ -357,6 +357,7 @@ button[data-balloon] { overflow: visible; }
 }
 @media (max-width:480px) {
  body { display: block; }
+ body, html { overflow-x: hidden; }
  .closing-title, .page-title { font-size: 40px; }
  .site-header { padding-top: 30px; }
  .main-nav { margin-right: 0; }
