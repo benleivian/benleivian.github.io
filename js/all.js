@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function(){
     },
     offset: {
       x: 0,
-      y: 200
+      y: 100
     },
     once: true
   }, document.body, window);
